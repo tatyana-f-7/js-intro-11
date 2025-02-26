@@ -1,0 +1,14 @@
+/*
+TASK: it converts the string to lowercase version
+ARGUMENTS: no arg
+RETURN: it returns a new string
+DOES IT CHANGE ORIGINAL VALUE: No
+STATIC or INSTANCE: instance
+ */
+
+
+ Requirement for TASK 1
+
+
+
+ console.log('\n---------------TASK01---------------\n');

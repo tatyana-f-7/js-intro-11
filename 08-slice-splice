@@ -1,0 +1,20 @@
+const objects = ['Remote', 'Watch', 'Pen', 'PC', 'Mouse'];
+
+const partial1 = objects.slice(0, 2); // ['Remote', 'Watch']
+const partial2 = objects.slice(1, 4); // ['Watch', 'Pen', 'PC']
+const partial3 = objects.slice(2); // ['Pen', 'PC', 'Mouse']
+
+console.log(partial1, partial2, partial3);
+console.log(objects); // ['Remote', 'Watch', 'Pen', 'PC', 'Mouse']
+
+console.log(objects.slice(0, 2)); // ['Remote', 'Watch']
+
+const names = ['John', 'Jane', 'Alex', 'Max', 'Maria'];
+
+// console.log(names.splice(0, 1)); // ['John']
+// names.splice(0, 3); // this will remove first 2 elements
+//console.log(names.splice(2, 0, 'Adam'));
+
+// Remove 'Jane', 'Alex' and add 'Adam', 'Omar' instead
+names.splice(1, 2, 'Adam', 'Omar');
+console.log(names);

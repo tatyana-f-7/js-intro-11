@@ -23,3 +23,19 @@ console.log(15 % 4); // 3
 
 console.log(2 * 5 % 3 - 7); // -6
 console.log(5 + 16 % 7 + 2); // 9
+
+/*
+Create 2 variables and assign them numbers.
+Then, find the sum, subtraction, multiplication,
+division and remainder of these 2 numbers.
+*/
+
+let n1 = 6;
+let n2 = 4;
+
+console.log(n1 + n2);
+console.log(n1 - n2);
+console.log(n1 * n2);
+console.log(n1 / n2);
+console.log(n1 % n2);
+

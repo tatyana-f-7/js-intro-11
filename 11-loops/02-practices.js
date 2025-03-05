@@ -60,3 +60,15 @@ for(let i = 0; i <= fruit.length - 1; i++) {
 console.log(counterA);
 
 
+const number = [ 2, 6, 3, -1, 10, 8 ];
+let counterEven = 0;
+
+for(let i = 0; i < number.length; i++) {
+    if(number[i] % 2 === 0) {
+        counterEven++;
+}
+}
+console.log(counterEven);
+
+
+for(let i = 0; i )

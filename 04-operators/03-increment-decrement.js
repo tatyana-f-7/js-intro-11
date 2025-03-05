@@ -43,4 +43,3 @@ console.log(++counter * result); // result = 5, counter = 7
 
 // post-increment or post-decrement var++ or var--
 // We'll use this with LOOPS
-

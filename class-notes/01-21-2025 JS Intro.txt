@@ -60,7 +60,7 @@ Human way 			Computer way
 Storage Units
 1 bit 		-> 0 or 1
 1 byte 		-> 8 bits
-1 kilobyte -> 1024 bytes
+1 kilobeyte -> 1024 bytes34895739456
 
 
 001

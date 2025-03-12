@@ -408,13 +408,13 @@ NOTE: Make your code dynamic that works for any string. Make sure you
 consider extra spaces before and after words in the given string.
 */
 
-function reverseStringWords(str) {
-    const reversedWords = str.split(' ').map(str => str.split('').reverse().join(''));
+const reverseStringWords = str => {
+    const reversedWords = str.split(/\s+/).map(str => str.split('').reverse().join(''));
     return reversedWords.join(' ');
 }
 
-console.log(reverseStringWords('Hello World'));
-console.log(reverseStringWords('I like JavaScript'));
+console.log(reverseStringWords('Hello    World'));
+console.log(reverseStringWords('I   like   JavaScript'));
 console.log(reverseStringWords('Hello'));
 console.log(reverseStringWords(''));
 console.log(reverseStringWords('   '));
@@ -508,11 +508,17 @@ NOTE: Make your code dynamic that works for any numbers.
 Assume you will not be given negative numbers.
 */
 
-function fizzBuzz(num1, num2) {
-    let numbers = [];
-    for(let i = Math.min(num1, num2); i <= Math.max(num1, num2); i++) {
-        numbers.push(i);
+const fizzBuzz = (num1, num2) => {
+    let min = Math.min(num1, num2);
+    let max = Math.max(num1, num2);
+    let results = [];
+    for(let i = min; i <= max; i++) {
+        if(i % 3 === 0 && i % 5 === 0) results.push('fizzBuzz');
+        else if(i % 3 === 0) results.push('fizz');
+        else if(i % 5 === 0) results.push('Buzz');
+        else results.push(i)
 }
+return results.join(' | ')
 }
 
-console.log(numbers(13, 18));
+console.log(fizzBuzz(13, 18));

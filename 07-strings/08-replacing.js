@@ -18,7 +18,7 @@ STATIC or INSTANCE: Instance
 */
 
 /*
-replaceA;;() method
+replaceAll() method
 TASK: replaces all the found occurrences of searchString with another string
 ARGUMENTS: 2 args, searchString, newValue
 RETURN: returns a new string with replacement applied  

@@ -220,6 +220,7 @@ NOTE: The smallest prime number is 2 and there is no
 negative prime numbers.
 */
 
+
 function isPrime(number) {
     return number >= 2 && number % number === 0 && number % 1 === 0;
 }

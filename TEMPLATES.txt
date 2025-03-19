@@ -12,3 +12,62 @@ STATIC or INSTANCE: instance
 
 
  console.log('\n---------------TASK01---------------\n');
+
+
+ /*
+TASK: 
+ARGUMENTS: 
+RETURN:  
+DOES IT CHANGE ORIGINAL VALUE: 
+STATIC or INSTANCE: 
+*/
+
+
+What is 'IS A RELATIONSHIP' vs 'HAS A RELATIONSHIP'?
+class Animal {
+	
+}
+class Dog extends Animal {
+	
+}
+class GermanShepherd extends Dog {
+	
+}
+GermanShepherd is a Dog
+GermanShepher is an Animal
+IS A RELATIONSHIP: inheritance with parent child relationship
+Author has Books
+Car has Engine
+HAS A RELATIONSHIP: it is not inheritance but one class uses another class as property.
+class Car{
+	constructor(engine) {
+	}
+}
+class Engine {
+	
+}
+
+
+March 30th is OFF
+April 19th is the date for MOCK-INTERVIEW 2
+April 3rd - Mentoring groups/Mentors 
+April 10th - First mentor/meeting 
+
+Saturday -> Mentoring Document
+Wednesday -> Send Draft 
+Thursday -> mentoring meeting
+Saturday -> Record a video (5 mins) -> You will get feedbacks
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -10,13 +10,13 @@ Every line below must be printed with a separate
 console.log() statement.
 */
 
-console.log(`I start to practice "JavaScript" today and I like it.`);
-console.log(`The secret of getting ahead is getting started.`);
-console.log(`"Don't limit yourself."`);
-console.log(`Invest in your dreams. Grind now. Shine later.`);
-console.log(`It's not the load that breaks you down, it's the way you carry it.`);
-console.log(`The hard days are what make you stronger.`);
-console.log(`You can waste your life drawing lines. Or you can live your life crossing them.`);
+console.log('I start to practice "JavaScript" today and I like it.');
+console.log('The secret of getting ahead is getting started.');
+console.log('"Don\'t limit yourself."');
+console.log('Invest in your dreams. Grind now. Shine later.');
+console.log('It\'s not the load that breaks you down, it\'s the way you carry it.');
+console.log('The hard days are what make you stronger.');
+console.log('You can waste your life drawing lines. Or you can live your life crossing them.');
 
 
 
@@ -28,7 +28,27 @@ ONLY 1 console.log() statement (you can use escape
 sequences to insert line or a tab).
 */
 
-console.log('\tJavaScript is a high-level programming language\nprimarily used to build web applications. It is not limited\nto the web; it can also be used for the backend\ndevelopment with technologies like Node.js.\n\n\tIt is open source and has a huge community support,\nwhich means there are plenty of resources and support\navailable for learning. It uses a syntax like other\nprogramming languages and easy to learn.');
+console.log(
+      '\tJavaScript is a high-level programming language \n' +
+'primarily used to build web applications. It is not limited \n' +
+'to the web; it can also be used for the backend\n' +
+'development with technologies like Node.js. \n' +
+'\n' +
+      '\tIt is open source and has a huge community support, \n' +
+'which means there are plenty of resources and support \n' +
+'available for learning. It uses a syntax like other \n' +
+'programming languages and easy to learn.');
+
+console.log(`
+   JavaScript is a high-level programming language 
+primarily used to build web applications. It is not limited 
+to the web; it can also be used for the backend
+development with technologies like Node.js.
+
+   It is open source and has a huge community support, 
+which means there are plenty of resources and support 
+available for learning. It uses a syntax like other 
+programming languages and easy to learn`)
 
 
 

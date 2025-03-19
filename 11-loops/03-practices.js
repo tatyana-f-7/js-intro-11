@@ -1,123 +1,63 @@
 const { getRandomNumber } = require('./../utils/MathHelper.js');
 
+// Output all the odd numbers from 1 to Random Number (inclusive) 
+// (between 10 and 20) (both inclusive) -> 1 3 5 7 9 ….
 
-for(let i = 1; i <= getRandomNumber(10, 20); i++) {
-    if(i % 2 !== 0) console.log(i);
+/*
+start: 1
+end: randomNumber
+update: ++
+*/
+
+let r1 = getRandomNumber(10, 20);
+console.log(`The random number is ${r1}.`);
+
+for(let i = 1; i <= r1; i++) {
+  if(i % 2 !== 0) console.log(i);
 }
 
 
-let rand = getRandomNumber(1, 10);
-console.log(rand);
+/*
+Generate a random number bt 1 to 10 (both inclusive
+Find the product of all the numbers starting from 1 to randomly generated random
+
+5       -> 1 * 2 * 3 * 4 * 5 -> 120
+6       -> 1 * 2 * 3 * 4 * 5 * 6 -> 720
+3       -> 1 * 2 * 3 -> 6
+*/
+
+let r2 = getRandomNumber(1, 10);
+console.log(`The random number is ${r2}.`);
+
 let product = 1;
 
-for(let i = 1; i <= rand; i++) {
-product *= i;
+for(let i = 1; i <= r2; i++) {
+  product *= i;
 }
 
 console.log(product);
 
-
-let r1 = getRandomNumber(1, 10);
-let r2 = getRandomNumber(1, 10);
-console.log(`The random numbers are ${r1}, ${r2}`);
-
-for(let i = Math.min(r1, r2); i <= Math.max(r1, r2); i++) {
-    console.log(i);
-}
-
-let r1 = getRandomNumber(1, 10);
-let r2
-
-
-// const numbers = [ 5, 7, 1, 3, 10 ];
-
-numbers.forEach((x) => console.log(x * 2));
-
-// const names = [ 'Mariia', 'Alex', 'John', 'Jane', 'Victoria' ];
-
 /*
-names.forEach(function(x) {
-    if(x.length <= 4) console.log(x);
-});
+Print all the numbers between 2 random numbers in the range 
+of 1 to 10 (both inclusive) in ascending order
+
+ran1 ran2
+7, 5    -> 5 6 7
+4, 8    -> 4 5 6 7 8
+5, 5    -> 5
+
+start: Min of ran1 and ran2
+end: Max of ran1 and ran2
 */
 
-/*
-names.forEach(function(x) {
-    if(x.length <= 4) console.log(x);
-});
-*/
+let ran1 = getRandomNumber(1, 10);
+let ran2 = getRandomNumber(1, 10);
 
-/*
-names.forEach((name) => {
-    if(name.length === 4) console.log(name);
-});
-*/
+console.log(`The random numbers are = ${ran1} and ${ran2}`);
 
-const names = [ 'Mariia', 'Alex', 'John', 'Jane', 'Victoria' ];
+// let min = Math.min(ran1, ran2);
+// let max = Math.max(ran1, ran2);
 
-const names4 = names.filter((x) => x.length === 4);
-
-console.log(names4);
-
-console.log(names.filter((name) => name.toLowerCase().includes('a')).length);
-
-
-
-const numbers = [ 10, 5, 100, 77, 50, 65, 0 ];
-
-console.log(numbers.filter((number) => number >= 50));
-
-const fruits = [ 'Orange', 'Apple', 'Red apple', 'Pineapple', 'Kiwi'];
-// Find all the fruits that has apple -> [ 'Apple', 'Red apple', 'Pineapple' ]
-// Count how many elements has a      -> 4
-// Count how many elements has i      -> 2
-
-console.log(fruits.filter((fruit) => fruit.toLowerCase().includes('apple')));
-console.log(fruits.filter((fruit) => fruit.toLowerCase().includes('a')).length);
-console.log(fruits.filter((fruit) => fruit.toLowerCase().includes('i')).length);
-
-const nums = [ 5, 3, 2, 20 ];
-
-const oddEven = nums.map((num) => num % 2 === 0 ? 'even' : 'odd');
-
-console.log(oddEven);
-
-const sentences = ['Good evening', 'I like arrays', 'It is Monday'];
-// each sentence's first word -> ['Good', 'I', 'It'];
-
-const firstWord = sentences.map((sen) => sen.slice(0, sen.indexOf(' ')));
-console.log(firstWord);
-
-const salaries = [1000.2342, 5234.34533, 721.9786, 3452.50];
-// Create a new array storing the given salaries with 2 decimals
-// [1000.23, 5234.35, 721.98, 3452.50]
-
-const revisedSal = salaries.map((sal) => sal.toFixed(2));
-console.log(revisedSal);
-
-const cities = ['Rome', 'Kyiv', 'Berlin', 'Brugge', 'LA'];
-// Find the first element that has 4 letters -> Rome
-// Find the last element that has 6 letters -> Brugge
-// Find the index of LA -> 4
-// Find the first element which has i -> Kyiv
-// Find the last element that has 4 letters -> Kyiv
-
-
-const numbers = [ 3, 6, 10, 4 ]
-
-// count even
-let countEven = numbers.reduce((accumulator, current) => current % 2 === 0 ? accumulator + 1 : accumulator, 0);
-
-console.log(countEven);
-
-let max = numbers.reduce((acc, curr) => curr > acc ? curr : acc, -Infinity);
-
-const fruits = [ 'Apple', 'Orange', 'Kiwi', 'Pineapple', 'Mango', 'Melon' ];
-
-const numbers = [ -2, -5, 3, 0, 5, 8, 10 ];
-
-// count even and positive numbers -> 2
-
-for(const num of numbers) {
-    if(num > 0 && num % 2 === 0) countEvenPos++
+for(let i = min; i <= max; i++) {
+  console.log(i);
 }

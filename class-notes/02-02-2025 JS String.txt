@@ -46,7 +46,7 @@ Extracting Substrings:
 slice();
 substring();
 
-Do they work with negative indices?
+Do they work with negative indexes?
 slice()       -> YES
 substring()   -> NO, it converts to ZERO 
 
@@ -63,7 +63,7 @@ str1 + str2; // 'abc123'
 
 str1.concat(str2); // 'abc123'
 
-'John'.concat(' ', 'is', ' ', '25', ' years old.');
+'John'.concat(' ', 'is', ' ', '25', ' ', 'years old.');
 
 
 repeat() method 

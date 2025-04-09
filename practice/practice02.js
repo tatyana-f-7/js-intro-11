@@ -22,7 +22,7 @@ console.log(splitStr3[0] + ' ' + splitStr3[2] + ' '  + splitStr3[3]);
 
 
 
-console.log('\n---------------TASK02---------------\n');//!!!!!!!!!!!!!!!!
+console.log('\n---------------TASK02---------------\n');
 
 /*
 Assume that you are given a String of any length.
@@ -41,7 +41,7 @@ let s1 = 'JavaScript';
 console.log(s1.length);
 console.log(s1[0]);
 console.log(s1.at(-1));
-console.log(s1.search('aeiuoAEIUO'));
+console.log(s1.toLowerCase().includes('a') || s1.toLowerCase().includes('e') || s1.toLowerCase().includes('i') || s1.toLowerCase().includes('u') || s1.toLowerCase().includes('o'));
 
 
 
@@ -54,7 +54,7 @@ Find the middle character for the given String.
 
 let s2 = 'civic'
 
-console.log(s2[(s2.length - 1) / 2]);
+console.log(s2[Math.floor(s2.length / 2)]);
 
 
 
@@ -65,7 +65,7 @@ Assume that you are given a String of any even length including empty.
 Find the middle 2 characters for the given String.
 */
 
-let s3 = 'JavaScript'
+let s3 = 'abcd'
 
 console.log(s3.slice((s3.length / 2 - 1), (s3.length / 2 + 1)));
 
@@ -85,12 +85,12 @@ be 4.
 let s4 = 'JavaScript';
 
 let first2 = s4.slice(0, 2);
-let last2 = s4.slice(-2);
 let middle = s4.slice(2, -2);
+let last2 = s4.slice(-2);
 
 console.log(first2);
-console.log(last2);
 console.log(middle);
+console.log(last2);
 
 
 
@@ -106,6 +106,7 @@ let s5 = 'JavaScript';
 let first = s5.slice(0, 2);
 let last = s5.slice(-2);
 
+console.log(first, last);
 console.log(first === last);
 
 
@@ -117,10 +118,10 @@ Write a program that gets rid of first and last characters of given two String v
 String values to each other and print the result.
 */
 
-let s61 = 'Yellow';
-let s62 = 'Red';
+let s61 = 'Orange';
+let s62 = '6';
 
-let newS = s61.slice(1, s61.length - 1) + s62.slice(1, s62.length - 1);
+let newS = s61.slice(1, -1) + s62.slice(1, -1);
 console.log(newS);
 
 
@@ -135,13 +136,11 @@ Write a program that checks if a given String starts and ends with xx.
 
 let s7 = 'xxbluexx';
 
-let test = s7.startsWith('xx') && s7.endsWith('xx');
-
-console.log(test);
+console.log(s7.startsWith('xx') && s7.endsWith('xx'));
 
 
 
-console.log('\n---------------TASK09---------------\n');//!!!!!!!!!!!!!!!!!
+console.log('\n---------------TASK09---------------\n');
 
 /*
 Write a program that swaps the first and last word of a given sentence as a String.
@@ -149,13 +148,13 @@ Write a program that swaps the first and last word of a given sentence as a Stri
 
 let s8 = 'I like Apple';
 
-let splitS8 = s8.trim().split(' ');
-let firstS8 = splitS8[0];
-let lastS8 = splitS8.at(-1);
-let middleS8 = splitS8.slice(1, splitS8.length - 1);
+let firstS8 = s8.slice(0, s8.indexOf(' '));
+let middleS8 = s8.slice(s8.indexOf(' '), s8.lastIndexOf(' ') + 1);
+let lastS8 = s8.slice(s8.lastIndexOf(' ') + 1);
 
 let newS8 = lastS8 + ' ' + middleS8 + ' ' + firstS8;
 
+console.log(newS8);
 
 
 console.log('\n---------------TASK10---------------\n');
@@ -165,9 +164,9 @@ Write a program that counts the number of words in a given sentence as a String.
 Assume you will not be given redundant whitespaces and at least one word.
 */
 
-let s9 = 'LavaScript is nice to learn';
+let s9 = ' JavaScript is nice to learn';
 
-console.log(s9.split(' ').length);
+console.log(s9.trim().split(' ').length);
 
 
 

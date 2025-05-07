@@ -1,8 +1,7 @@
 module.exports.connect = () => {
     return true;
-}
-
-module.exports.teardown = () => {
+  }
+  
+  module.exports.teardown = () => {
     return true;
-}
-
+  }

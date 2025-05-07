@@ -1,6 +1,6 @@
-export class BrowserHelper {
+export default class BrowserHelper {
     static browserName = 'Chrome';
-    launch() {
-        return true;
+    static launch() {
+      return true;
     }
-}
+  }

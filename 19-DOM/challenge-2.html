@@ -3,29 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Student List</title>
+  <title>Document</title>
 </head>
 <body>
-  <table border="1">
+  
+  <table>
     <thead>
       <tr>
         <th>Student Names</th>
       </tr>
     </thead>
-    <tbody id="studentTableBody">
-      <!-- Student names will be rendered here -->
+    <tbody>
+      <!-- Render student names here -->
     </tbody>
   </table>
+  
   <script>
-    const students = ['A', 'B'];
-    const tableBody = document.getElementById('studentTableBody');
-    students.forEach(studentName => {
-      const row = document.createElement('tr');
-      const cell = document.createElement('td');
-      cell.textContent = studentName;
-      row.appendChild(cell);
-      tableBody.appendChild(row);
-    });
+    // Create an array of 
+    const students  = ['A', 'B'];
+
+    // In html file you will have a table element
+    
+    // Dynamically append new row with array data
+    table.innerHTML = `<tr><td>${studentName}</td></tr>`
   </script>
 </body>
 </html>

@@ -1,17 +1,22 @@
 const UIHelper = {
     component: 'User Interface',
     getUrl: function() {
-        return 'EXAMPLE URL';
+      return 'EXAMPLE URL';
     },
     navigateBack: function() {
-        return 'BACK';
+      return 'BACK';
     },
     navigateForward: function() {
-        return 'FORWARD';
+      return 'FORWARD';
     },
     refresh: function() {
-        return 'REFRESH';
+      return 'REFRESH';
     }
-}
-
-module.exports = UIHelper
+  };
+  
+  // You are exporting UIHelper as an object
+  // module.exports = UIHelper; 
+  
+  
+  // You are exporting UIHelper as a property
+  module.exports.UIHelper = UIHelper;

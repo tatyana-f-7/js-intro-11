@@ -1,0 +1,195 @@
+1.  My name is Tatyana. I've been fascinated 
+by computer science and programming since 
+high school, but back then, pursuing that 
+kind of education wasn't financially 
+possible for me. Instead, I earned a degree 
+in agriculture and biology. Although I haven't
+worked in that field for a long time, 
+it's still a part of my journey. Nearly 20 years 
+later, I finally found both the opportunity 
+and the courage to follow my interest and step 
+into the IT field. It’s an exciting new chapter, 
+and I'm grateful for the chance to start this 
+path. I’ve been living in the United States for 
+the past 15 years. I’m originally from a small 
+iron ore mining city in the northern part 
+of Kazakhstan, and I often find myself missing 
+my homeland and its familiar landscapes. In my 
+free time, I love being with my family and 
+friends, playing with my kids, and spending 
+time outdoors. Long walks and hikes are some 
+of my favorite ways to recharge. Fun fact 
+about me: I have a deep love for gardening, 
+especially growing hybrid tea roses, 
+which bring me a lot of joy. My favorite 
+sports are John Paul 2 (white rose with 
+beautiful aroma) and Francis Meilland 
+(desease resistant white and pink rose).
+
+
+2.  As I mentioned before, I’ve always 
+been fascinated by computer science and 
+information technology. So when I decided to 
+pursue a new profession, the IT field was my 
+first choice. However, I wasn't sure which 
+specific direction to take—and I was intimidated 
+by the idea of such a long-term commitment 
+to studying something entirely new. I was 
+especially interested in programming and 
+development, but I wasn’t confident it 
+was the right path for me. I’ve always 
+considered myself to have more of a humanitarian 
+mindset than a mathematical one, so I had 
+doubts about whether I’d truly enjoy or excel 
+in that area. Then a friend casually asked me, 
+“Why don’t you become a tester?” That simple 
+question sparked something in me. The role of 
+a software tester immediately caught my interest: 
+it involves programming, but not to the same 
+intense level as a developer’s job. I also liked 
+that quality testing requires logical thinking 
+and an investigative approach, which really
+speaks to my strengths and curiosity.
+
+3.  My key strengths include strong communication 
+skills, self-motivation, a solid work ethic 
+and flexibility. I’m someone who stays focused 
+and driven, whether working independently 
+or adapting to new situations. I value clear 
+communication and always strive to stay organized, 
+productive and open-minded in everything I do.
+As for my weaknesses, I’ve noticed that I 
+sometimes find it challenging to be a team player, 
+especially when I'm used to handling things 
+on my own. I also struggle with delegating tasks, 
+as I tend to take full responsibility and want 
+everything done just right. However, I’m aware 
+of these tendencies and actively working on 
+improving by learning to trust others more,
+asking for support when needed, and practicing 
+better collaboration.
+
+4.
+My Goals:
+ - Gain Confidence in JavaScript;
+ - Master Automation Tools like Cypress and Playwright;
+ - Prepare for the Job Market: I want to become 
+competitive candidate by continuously improving my 
+skills, building a strong portfolio, and staying up 
+to date with industry trends;
+ - Find a Fulfilling Job: My ultimate goal is to 
+secure a job that not only supports me financially 
+but also provides a sense of accomplishment and pride.
+My Strengths:
+I’m really motivated and always looking for ways 
+to improve and reach my goals. I’m detail-oriented, 
+so I make sure to give my best effort in everything 
+I do. I’m also ambitious, always up for new 
+challenges and eager to grow in my career. Plus, 
+I’ve got strong communication skills that help me 
+connect with others, share ideas clearly and work well 
+in teams.
+My Weaknesses:
+I’ve noticed that I’m not always the best when it 
+comes to being a team player—sometimes I prefer 
+working on my own. I also struggle with delegating 
+tasks, as I tend to want to take everything on myself 
+to make sure it's done right. On top of that, 
+I can sometimes get caught up in the small details, 
+which can slow me down when focusing on the bigger 
+picture. But I’m aware of these things and
+actively working on improving.
+My Opportunities:
+One thing I’m currently working on is building 
+connections in the IT world, since I don’t have any yet. 
+But I’m excited to make the most of all the amazing 
+resources at TechGlobal Schoo: great curriculum, 
+awesome teachers, and plenty of chances to network.
+It’s a perfect place for me to grow my skills and meet 
+others in the industry.
+My Threats:
+One of the main challenges I’m dealing with is time. 
+With family responsibilities, I can’t always put 
+in 100% of my focus on learning, which can be tough. 
+I’m also a little worried about the high competition 
+for IT jobs and how quickly AI is advancing. It makes 
+me wonder if some jobs might eventually get replaced by AI.
+
+5.  Manual testing is when you test a product by 
+actually interacting with it, like a user would. 
+It’s hands-on and can be great for catching things 
+that might not show up in automated tests, like the 
+overall user experience or visual issues. But it 
+can be time-consuming and repetitive, especially 
+for large projects. Automated testing, on the other 
+hand, uses scripts and tools to run tests automatically. 
+It’s faster, more efficient, and great for repetitive 
+tasks, but it can sometimes miss those small,
+human touch points that manual testers catch. 
+Both have their place, and the best teams 
+often use a mix of both.
+
+6.  Automation is often considered better 
+than manual testing because it’s faster and more 
+efficient. Once test scripts are set up,
+they can run continuously without the need for breaks, 
+allowing for quicker feedback. Automation is 
+particularly useful for repetitive tasks or 
+large-scale projects where doing everything 
+manually would be time-consuming and 
+prone to human error. While manual testing 
+is still crucial for evaluating user experience 
+and catching visual issues, automation 
+significantly speeds up the process and 
+helps improve overall efficiency.
+
+7. 1. Programming Language Knowledge & 
+Ability to Write Code: Knowing how to code is 
+vital for a QA tester. It helps you write 
+and manage test scripts, plus it’s key to 
+understanding and troubleshooting issues 
+in the code. 
+   2. Knowledge of Modern Automation Tools 
+& Staying Updated: It’s essential to be 
+familiar with modern automation tools like 
+Cypress, Selenium, and Playwright. 
+   3. Good Discipline & Ability to Work 
+Efficiently: Whether you’re working remotely 
+or in person, being disciplined is key. Managing 
+your time well and staying organized helps 
+you test efficiently and meet deadlines, 
+no matter the setup.
+   4. Good Communication Skills: Communication 
+is huge in QA. You’ll need to clearly explain 
+bugs, suggest improvements, and work with 
+developers and the team to make sure everyone is 
+on the same page about the product’s quality.
+   5. Ability to Handle Fast-Changing & 
+Stressful Environments: The tech world moves fast 
+and QA testers need to keep up. Being able to stay 
+calm, adapt quickly to changes, and work well under 
+pressure is important to keep testing on track 
+and make sure everything gets done on time.
+
+
+
+I started my career in QA as a manual tester, which 
+gave me a solid foundation in testing processes and 
+bug tracking. Over time, though, I found the repetitive 
+nature of manual testing unfulfilling and began 
+looking for ways to improve efficiency. That’s when 
+I discovered the benefits of automation: 
+faster execution, better test coverage 
+and reduced human error.
+Curious to dive deeper, I began researching modern 
+automation tools and was particularly drawn to Cypress 
+and Playwright. To use them effectively, I taught 
+myself JavaScript and started experimenting on my own. 
+Eventually, I was able to apply what I learned on the job: 
+automating test cases, contributing to CI/CD integration, 
+and helping shape our team’s automation practices.
+Transitioning into automation testing not only made 
+my work more dynamic and impactful, but it also opened up 
+new learning and career opportunities 
+that I continue to explore today.
+

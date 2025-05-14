@@ -193,3 +193,41 @@ my work more dynamic and impactful, but it also opened up
 new learning and career opportunities 
 that I continue to explore today.
 
+
+
+Agile is a way of managing projects in software development 
+where work is done in small, manageable pieces. Instead of planning
+everything upfront, Agile focuses on flexibility, collaboration,
+and customer feedback. The goal is to keep improving the product step by step.
+
+Scrum is one of the most popular ways to use Agile. 
+It breaks work into short cycles called sprints (usually 2 weeks). 
+A team works on a set of tasks during each sprint, 
+then reviews what they’ve done, gets feedback, and plans the next sprint.
+
+Advantages of Agile and Scrum:
+Fast feedback and quicker updates
+Easy to adapt if requirements change
+Better teamwork and communication
+Customers often get to see progress early and often
+
+Disadvantages:
+Can be chaotic without good teamwork
+Requires frequent communication, which can be tough with remote teams
+
+My team.
+
+Agile ceremonies:
+1. Sprint planning - 1 hour(starting new sprint)
+2. Daily standup - 15-30 mins( what was done yesterday, what will be doing today, any blockers, 
+questions)
+3. Sprint Review - 30-60 mins(demo what was accomplished in the past weeks, months)
+4. Sprint Retrospective - 30 mins(feedback from the team)
+5. Sprint Grooming and Refinement(1 to 2 hours) - in the middle of the sprint, 
+getting ready for the next sprint, refining stories, pointing session
+fibonacci series(1,2,3,5,8)
+
+
+
+
+
